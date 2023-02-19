@@ -4,40 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="main__container">
-        <h1>Contact Form</h1>
     <form action="">
-        <label for="name">Name:</label>
-        <input type="text" placeholder="Enter your name"> <br>
+       
+        <table>
+            <tr class="row">
+                <th> <h1>Contact Form</h1> </th>
+            </tr>
 
-        <label for="username">Username:</label>
-        <input type="text" placeholder="Enter your username"> <br>
+            <tr class="row">
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
 
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Enter your password"> <br>
+            <tr class="row">
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" placeholder="Enter your username"></td>
+            </tr>
 
-        <label for="password">Re-type Password:</label>
-        <input type="password" placeholder="Enter your password"> <br>
+            <tr class="row">
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" placeholder="Enter your password"></td>
+            </tr>
 
-        <label for="gender" value >Gender:</label>
-        <input type="radio" > <br>
+            <tr class="row">
+                <td><label for="password">Re-type Password:</label></td>
+                <td><input type="password" placeholder="Enter your password"></td>
+            </tr>
 
-        <label for="techie-skill">Techie Skills:</label>
-        <input type="radio" > <br>
+            <tr class="row">
+                <td><label for="gender" value >Gender:</label></td>
+                <td><input type="radio" > Male <input type="radio" > Female </td>
+            </tr>
 
-        <label for="phone-number">Phone Number:</label>
-        <input type="text" placeholder="Enter your phone Number"> <br>
+            <tr class="row">
+                <td><label for="techie-skill">Techie Skills:</label></td>
+                <td> <input type="checkbox" > HTML  
+                     <input type="checkbox" > CSS  
+                     <input type="checkbox" > Javascript </td>
+            </tr>
 
-        <label for="email">Email:</label>
-        <input type="text" placeholder="Enter your Email address"> <br>
+            <tr class="row">
+                <td><label for="phone-number">Phone Number:</label></td>
+                <td><input type="text" placeholder="Enter your phone Number"></td>
+            </tr>
 
-        <label for="college">College:</label>
-        <input type="text" placeholder="select a college"> <br>
+            <tr class="row">
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" placeholder="Enter your Email address"></td>
+            </tr>
 
-        <input type="submit" value="Submit" >
+            <tr class="row">
+                <td><label for="college">College:</label></td>
+                <td><select name="college" id="">
+                    <option value="1">Nice College</option>
+                    <option value="1">Menu College</option>
+                </select></td>
+            </tr>
+
+            <tr class="row">
+                <td></td>
+                <td><input class="submit" type="submit" value="Submit" ></td>
+            </tr>
+
+        </table>
+
     </form>
     </div>
 </body>
